@@ -1,4 +1,6 @@
 import { Component } from "react/cjs/react.production.min";
+import Logo from './Logo'
+import Carro from './Carro'
 
 const styles = {
     navbar: {
@@ -6,16 +8,20 @@ const styles = {
         flexDirection: 'row',
         alignItems: 'center',
         height: '100px',
-        justyfyContent: 'space-between'
+        justifyContent: 'space-between',
+        position: 'relativa',
+        padding: '0 50px',
+        boxShadow: '0 2px 3px rgb(0,0,0,0.5)'
     }
 }
 
 class Navbar extends Component {
     render(){
+        const { carro } = this.props
         return(
             <nav style= {styles.navbar}>
-                <p>Logo</p>
-                <p>Carro</p>
+                <Logo></Logo>
+                <Carro carro={carro}></Carro>
             </nav>
         )
     }
