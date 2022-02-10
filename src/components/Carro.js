@@ -10,6 +10,7 @@ const styles = {
         padding: '15px',
         borderRadius: '15px',
         cursor: 'pointer',
+        
     },
 
     bubble: {
@@ -42,3 +43,5 @@ class Carro extends Component {
 }
 
 export default Carro
+
+//Componentes basados en clases

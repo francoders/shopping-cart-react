@@ -29,3 +29,5 @@ class BubbleAlert extends Component {
 }
 
 export default BubbleAlert;
+
+//Componentes basados en clases

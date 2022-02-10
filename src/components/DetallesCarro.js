@@ -21,7 +21,7 @@ const styles = {
         justifyContent: 'space-between',
         alignItems: 'center',
         padding: '25px 20px',
-        borderBottom: 'solid 1px #aaa'
+        borderBottom: 'solid 1px #aaa',
     }
 }
 
@@ -45,3 +45,5 @@ class DetallesCarro extends Component {
 }
 
 export default DetallesCarro;
+
+//Componentes basados en clases

@@ -7,7 +7,8 @@ const styles = {
         boxShadow: '0 1px 5px 0 rgb(0,0,0,0.1)',
         width: '30%',
         textAlign: 'center',
-        borderRadius: '20px'
+        borderRadius: '20px',
+        backgroundColor: '#fff'
     },
 
     img:{

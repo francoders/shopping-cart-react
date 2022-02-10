@@ -11,7 +11,8 @@ const styles = {
         justifyContent: 'space-between',
         position: 'relativa',
         padding: '0 50px',
-        boxShadow: '0 2px 3px rgb(0,0,0,0.5)'
+        boxShadow: '0 2px 3px rgb(0,0,0,0.5)',
+        backgroundColor: '#96d6f9'
     }
 }
 
@@ -33,3 +34,4 @@ class Navbar extends Component {
 
 export default Navbar
 
+//Componentes basados en clases

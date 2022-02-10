@@ -22,3 +22,5 @@ class Button extends Component{
 }
 
 export default Button
+
+//Componentes basados en clases

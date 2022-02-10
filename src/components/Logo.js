@@ -12,10 +12,12 @@ class Logo extends Component{
     render(){
         return(
             <div style={styles.logo}>
-                Shop
+                SHOP
             </div>
         )
     }
 }
 
 export default Logo
+
+//Componentes basados en clases
